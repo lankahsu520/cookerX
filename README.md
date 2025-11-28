@@ -5,7 +5,7 @@
 [![GitHub stars][stars-image]][stars-url]
 [![GitHub forks][forks-image]][forks-url]
 [![GitHub issues][issues-image]][issues-image]
-
+[![GitHub watchers][watchers-image]][watchers-image]
 
 [license-image]: https://img.shields.io/github/license/lankahsu520/cookerX.svg
 [license-url]: https://github.com/lankahsu520/cookerX/blob/master/LICENSE
@@ -15,6 +15,8 @@
 [forks-url]: https://github.com/lankahsu520/cookerX/network
 [issues-image]: https://img.shields.io/github/issues/lankahsu520/cookerX.svg
 [issues-url]: https://github.com/lankahsu520/cookerX/issues
+[watchers-image]: https://img.shields.io/github/watchers/lankahsu520/cookerX.svg
+[watchers-url]: https://github.com/lankahsu520/cookerX/watchers
 
 # 1. Overview
 
@@ -478,7 +480,7 @@ $ vi $PJ_YOCTO_LAYERS_DIR/poky/meta/recipes-core/dropbear/dropbear/dropbear.defa
 # DROPBEAR_EXTRA_ARGS="-w"
 ```
 
-## 7.4. meta-lanka
+## 7.4. [meta-lanka](https://github.com/lankahsu520/cookerX/tree/main/patches/layers-master-2b733d5/meta-lanka)
 
 ### 7.4.1. create-layer
 
@@ -532,9 +534,9 @@ example:
   meta-lanka           0.1
 ```
 
-### 7.4.3. example_0.1.bb
+### 7.4.3. [example_0.1.bb](https://github.com/lankahsu520/cookerX/blob/main/patches/layers-master-2b733d5/meta-lanka/recipes-example/example/example_0.1.bb)
 
-#### A. Add files - helloworld-123.c and Makefile
+#### A. Add files - [helloworld-123.c](https://github.com/lankahsu520/cookerX/blob/main/patches/layers-master-2b733d5/meta-lanka/recipes-example/example/files/helloworld-123.c) and [Makefile](https://github.com/lankahsu520/cookerX/blob/main/patches/layers-master-2b733d5/meta-lanka/recipes-example/example/files/Makefile)
 
 #### B. Install into Image
 
