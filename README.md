@@ -1,5 +1,3 @@
-# [Yocto](https://www.yoctoproject.org) [cookerX](https://github.com/lankahsu520/cookerX)
-
 [![](https://img.shields.io/badge/Powered%20by-lankahsu%20-brightgreen.svg)](https://github.com/lankahsu520/cookerX)
 [![GitHub license][license-image]][license-url]
 [![GitHub stars][stars-image]][stars-url]
@@ -20,7 +18,7 @@
 
 # 1. Overview
 
-> [cookerX](https://github.com/lankahsu520/cookerX) is depend on [Yocto Cooker](https://github.com/cpb-/yocto-cooker).
+> cookerX is depend on [Yocto Cooker](https://github.com/cpb-/yocto-cooker).
 >
 > Yocto Project isn't friendly to programmer. We have to collect Menu-files and create local.conf by myself.
 
