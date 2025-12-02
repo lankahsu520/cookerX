@@ -665,13 +665,13 @@ $ devtool finish python-zeep ./layers-scarthgap/meta-homeassistant-plus/recipes-
 #### F. reset
 
 ```bash
-# 將 python-zeep*.bb 安裝到指定的目錄
+# # 清除 python-zeep*.bb
 $ devtool reset python-zeep
 ```
 
-### 7.6.1. [commentjson](https://pypi.org/project/commentjson) (pypi)
+### 7.6.2. [commentjson](https://pypi.org/project/commentjson) (pypi)
 
-> 這邊以 python-zeep 為範例，
+> 這邊以 commentjson 為範例，
 
 #### A. Check exist
 
@@ -752,7 +752,7 @@ $ devtool finish python3-commentjson ./layers-scarthgap/meta-homeassistant-plus/
 #### F. reset
 
 ```bash
-# 還原 python3-commentjson
+# 清除 python3-commentjson
 $ devtool reset python3-commentjson
 ```
 
