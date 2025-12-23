@@ -334,7 +334,7 @@ $ mv core-image-base-raspberrypi3.wic core-image-base-raspberrypi3.img
 ```bash
 $ make toolchain
 # or
-bitbake core-image-base -c populate_sdk
+$ bitbake core-image-base -c populate_sdk
 
 $ make cook-lnk
 $ ll builds-lnk/sdk/*.sh
@@ -360,7 +360,10 @@ Each time you wish to use the SDK in a new shell session, you need to source the
 ```bash
 $ make toolchain-pure
 # or
-bitbake meta-toolchain
+$ bitbake meta-toolchain
+
+$ make cook-lnk
+$ ll builds-lnk/sdk/*.sh
 ```
 
 ## 6.2. Helloworld.c
